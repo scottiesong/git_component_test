@@ -1,0 +1,19 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/scottiesong/git_component_test.git'
+
+target 'KRSaying_Example' do
+  pod 'KRSaying', :path => '../'
+  pod 'KRPrinting', :path => '../../KRPrinting'
+#  pod 'KRPrinting', '0.1.2'
+
+  target 'KRSaying_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

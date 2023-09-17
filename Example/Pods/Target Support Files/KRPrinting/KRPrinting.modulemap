@@ -1,0 +1,6 @@
+framework module KRPrinting {
+  umbrella header "KRPrinting-umbrella.h"
+
+  export *
+  module * { export * }
+}
