@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KRPrinting'
-  s.version          = '0.1.2'
+  s.version          = '0.1.0'
   s.summary          = 'the first version of KRPrinting.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/scottiesong/git_component_component_test/'
+  s.homepage         = 'https://github.com/scottiesong/git_component_test/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'scottie' => 'scottiesong@hotmail.com' }
-  s.source           = { :git => 'https://github.com/scottiesong/git_component_component_test.git', :tag => s.name + '_' + s.version.to_s }
+  s.source           = { :git => 'https://github.com/scottiesong/git_component_test.git', :tag => s.name + '_' + s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

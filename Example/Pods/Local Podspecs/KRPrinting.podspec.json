@@ -1,9 +1,9 @@
 {
   "name": "KRPrinting",
   "version": "0.1.0",
-  "summary": "A short description of KRPrinting.",
+  "summary": "the first version of KRPrinting.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/scottie/KRPrinting",
+  "homepage": "https://github.com/scottiesong/git_component_test/",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "scottie": "scottiesong@hotmail.com"
   },
   "source": {
-    "git": "https://github.com/scottie/KRPrinting.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/scottiesong/git_component_test.git",
+    "tag": "KRPrinting_0.1.0"
   },
   "platforms": {
     "ios": "10.0"

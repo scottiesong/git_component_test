@@ -23,9 +23,9 @@
 //}
 
 - (void)print {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
-    NSLog(@"%s podspec.version = 0.1.1", __PRETTY_FUNCTION__);
-    NSLog(@"%s podspec.version = 0.1.2", __PRETTY_FUNCTION__);
+    NSLog(@"%s podspec.version = 0.1.0", __PRETTY_FUNCTION__);
+//    NSLog(@"%s podspec.version = 0.1.1", __PRETTY_FUNCTION__);
+//    NSLog(@"%s podspec.version = 0.1.2", __PRETTY_FUNCTION__);
 }
 
 @end
