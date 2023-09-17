@@ -1,0 +1,6 @@
+framework module Pods_KRPrinting_Example {
+  umbrella header "Pods-KRPrinting_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
