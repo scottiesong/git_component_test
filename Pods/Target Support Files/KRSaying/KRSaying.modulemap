@@ -1,0 +1,6 @@
+framework module KRSaying {
+  umbrella header "KRSaying-umbrella.h"
+
+  export *
+  module * { export * }
+}

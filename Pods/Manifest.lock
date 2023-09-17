@@ -1,0 +1,22 @@
+PODS:
+  - KRPrinting (0.1.0)
+  - KRSaying (0.1.0):
+    - KRPrinting
+
+DEPENDENCIES:
+  - KRPrinting (from `Library/KRPrinting`)
+  - KRSaying (from `Library/KRSaying`)
+
+EXTERNAL SOURCES:
+  KRPrinting:
+    :path: Library/KRPrinting
+  KRSaying:
+    :path: Library/KRSaying
+
+SPEC CHECKSUMS:
+  KRPrinting: eac3b8fdc04eaa4559422bff1cd7a8be17b9c167
+  KRSaying: 3f41d307acfba6532608dc75b5e340aa5b9999bc
+
+PODFILE CHECKSUM: c8f319001a1b02d6df1377b8ba8d68397b8db392
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08E1EA35BE4A7B4FBB3C917111BC1AAA /* KRSaying-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FDE5629C7C77C6914D49B08DB71598 /* KRSaying-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		292DBAD14842FF7CF0630B9770EEF878 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		351435EDBC9638E189156CB1491D9E82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5FF0CEF88D865C79C59D5AA32311BBE2 /* KRSaying.m in Sources */ = {isa = PBXBuildFile; fileRef = 326B6FD5067F393CC280156702A2481F /* KRSaying.m */; };
+		67A852F9AFEA3398F46DB6F22B7EA112 /* Pods-git_component_test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C62ECD103AC6AE375588EC5733F9989C /* Pods-git_component_test-dummy.m */; };
+		7E4279FFF69BFE5B8A88FF8F40C9E4BE /* KRSaying.h in Headers */ = {isa = PBXBuildFile; fileRef = B999AB738F89F8C47106D9D93C93B51D /* KRSaying.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1DE7727A891DADC5FE5073DF7591708 /* KRPrinting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3143B0B2E2988939644798F5D0AD836 /* KRPrinting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A64960FCC358BB19E2ECC46BF4FEE5A4 /* KRSaying-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C75FB328F4A6A45C46A900C717745AE8 /* KRSaying-dummy.m */; };
+		AAFA98D9FEEE9B482D46ACBB52A9D1B5 /* KRPrinting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA57119B9DC878D661C6C22D851DCAE0 /* KRPrinting-dummy.m */; };
+		AD9C8F2EA3C728940BCE43FB44C0BF6C /* Pods-git_component_test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83CE1C510ED8043D58CC3ED58BFDC517 /* Pods-git_component_test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDA3DA2354C2FD2242CFD65E4BAAD839 /* CorePrinting.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F613A074D7373FEF3F7B4BE8078F5C6 /* CorePrinting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8DE4D7D539B887B3E3F8C294620CF02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ED2DE1E2A39328E3F3C2DA251469E35E /* CorePrinting.m in Sources */ = {isa = PBXBuildFile; fileRef = 83039C3AAF5E71A098C7B3F9E945CECF /* CorePrinting.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		587BF6ACE15C665A6D22AB5E426BC6B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3514032D285858E9323C8F7FE62D3488;
+			remoteInfo = KRPrinting;
+		};
+		5A12E3DCF927F78B3B7AA14B3F5C029B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE1B30E9EC53870F0318B7274D3E0214;
+			remoteInfo = KRSaying;
+		};
+		F0865A7B5805E98C6CA85B0D72DDDF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3514032D285858E9323C8F7FE62D3488;
+			remoteInfo = KRPrinting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02102B5BD4F9A14DBAF4A83BB9A6D78B /* KRSaying-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KRSaying-Info.plist"; sourceTree = "<group>"; };
+		0844EA55CAE0746BDD4D05F42DC56C98 /* KRSaying.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRSaying.debug.xcconfig; sourceTree = "<group>"; };
+		0F2E2284708B57B79C183077116894A8 /* KRPrinting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRPrinting-prefix.pch"; sourceTree = "<group>"; };
+		1054F372C7937A0D044F1BDB9BC7B6D3 /* KRSaying */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRSaying; path = KRSaying.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		168CEC802C29FF6A75DB0E6F15F8263C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		31AA4AAE46FF26DF5B71F97B306D52DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		326B6FD5067F393CC280156702A2481F /* KRSaying.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRSaying.m; path = KRSaying/Classes/KRSaying.m; sourceTree = "<group>"; };
+		3A547026977B37159BC891F2F1A2A288 /* KRPrinting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRPrinting.release.xcconfig; sourceTree = "<group>"; };
+		43E30324AF7000044FEF772D95532856 /* Pods-git_component_test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-git_component_test.modulemap"; sourceTree = "<group>"; };
+		4802FB5EE9C84575EEB50B3890A05C37 /* Pods-git_component_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-git_component_test.release.xcconfig"; sourceTree = "<group>"; };
+		55FDE5629C7C77C6914D49B08DB71598 /* KRSaying-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRSaying-umbrella.h"; sourceTree = "<group>"; };
+		5BC26CC129C04288002685337E7840EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5F613A074D7373FEF3F7B4BE8078F5C6 /* CorePrinting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CorePrinting.h; path = KRPrinting/Classes/CorePrinting.h; sourceTree = "<group>"; };
+		6B14087E9A4D4C621DCF3ED49BA80DEC /* Pods-git_component_test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-git_component_test-Info.plist"; sourceTree = "<group>"; };
+		6C51590DB6AA1B361C43E4EC965EEFF0 /* KRSaying.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KRSaying.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		71BDFB20B76E160C22368A1D8E70F7CB /* Pods-git_component_test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-git_component_test-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B143151528A30C00E293EB552440331 /* KRPrinting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRPrinting.modulemap; sourceTree = "<group>"; };
+		7F971506CC0CDE7AD545DE1642970FB3 /* KRPrinting */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRPrinting; path = KRPrinting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF3EB3DD8DDAF50D4BB35A8DA681880 /* Pods-git_component_test */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-git_component_test"; path = Pods_git_component_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83039C3AAF5E71A098C7B3F9E945CECF /* CorePrinting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CorePrinting.m; path = KRPrinting/Classes/CorePrinting.m; sourceTree = "<group>"; };
+		83CE1C510ED8043D58CC3ED58BFDC517 /* Pods-git_component_test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-git_component_test-umbrella.h"; sourceTree = "<group>"; };
+		83E468CCF8D58515267DDC8ACEEECD25 /* KRPrinting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRPrinting.debug.xcconfig; sourceTree = "<group>"; };
+		8698A991FF0F56EE98520CDD4FE2EAE6 /* KRPrinting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KRPrinting-Info.plist"; sourceTree = "<group>"; };
+		8F31FCA9B537191744A62988B2589016 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9565EAE10DA11504F137BE803D0621C9 /* KRSaying-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRSaying-prefix.pch"; sourceTree = "<group>"; };
+		9A2E88A2F43C012373B5F6D81ABBC7A1 /* Pods-git_component_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-git_component_test.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA57119B9DC878D661C6C22D851DCAE0 /* KRPrinting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRPrinting-dummy.m"; sourceTree = "<group>"; };
+		AE2B23BED117D8AEA8BE7A152DCB6AA4 /* Pods-git_component_test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-git_component_test-frameworks.sh"; sourceTree = "<group>"; };
+		B3143B0B2E2988939644798F5D0AD836 /* KRPrinting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRPrinting-umbrella.h"; sourceTree = "<group>"; };
+		B999AB738F89F8C47106D9D93C93B51D /* KRSaying.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRSaying.h; path = KRSaying/Classes/KRSaying.h; sourceTree = "<group>"; };
+		C62ECD103AC6AE375588EC5733F9989C /* Pods-git_component_test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-git_component_test-dummy.m"; sourceTree = "<group>"; };
+		C75FB328F4A6A45C46A900C717745AE8 /* KRSaying-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRSaying-dummy.m"; sourceTree = "<group>"; };
+		CCAD5983225DB902E6392173C1028EA7 /* Pods-git_component_test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-git_component_test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D3697F2BFCC3FAECCFC4C2EA67BA1174 /* KRSaying.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRSaying.release.xcconfig; sourceTree = "<group>"; };
+		DAAB73AF6690CAB947EC78FF45D46CC5 /* KRSaying.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRSaying.modulemap; sourceTree = "<group>"; };
+		F2936408B48B6F151EBAAFD0E4D3FAF7 /* KRPrinting.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KRPrinting.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBAA24B8D4F35FBF0B39F0CB65952A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292DBAD14842FF7CF0630B9770EEF878 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E544D88DE2ABB740A5C779489108AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351435EDBC9638E189156CB1491D9E82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB94DB67E374734BCC6185AE662E517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DE4D7D539B887B3E3F8C294620CF02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B46742FCFE146F468D44615EE2BF57 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACC526BBBEE376429769E242DC7D3B03 /* KRPrinting */,
+				E726EE444A7CB52A17E03FE7EEDA8359 /* KRSaying */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		36261F029C321C5ADE30B5E15BE6329C /* Pods-git_component_test */ = {
+			isa = PBXGroup;
+			children = (
+				43E30324AF7000044FEF772D95532856 /* Pods-git_component_test.modulemap */,
+				CCAD5983225DB902E6392173C1028EA7 /* Pods-git_component_test-acknowledgements.markdown */,
+				71BDFB20B76E160C22368A1D8E70F7CB /* Pods-git_component_test-acknowledgements.plist */,
+				C62ECD103AC6AE375588EC5733F9989C /* Pods-git_component_test-dummy.m */,
+				AE2B23BED117D8AEA8BE7A152DCB6AA4 /* Pods-git_component_test-frameworks.sh */,
+				6B14087E9A4D4C621DCF3ED49BA80DEC /* Pods-git_component_test-Info.plist */,
+				83CE1C510ED8043D58CC3ED58BFDC517 /* Pods-git_component_test-umbrella.h */,
+				9A2E88A2F43C012373B5F6D81ABBC7A1 /* Pods-git_component_test.debug.xcconfig */,
+				4802FB5EE9C84575EEB50B3890A05C37 /* Pods-git_component_test.release.xcconfig */,
+			);
+			name = "Pods-git_component_test";
+			path = "Target Support Files/Pods-git_component_test";
+			sourceTree = "<group>";
+		};
+		556C3132C6A580EF6601DFD93084FBB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F971506CC0CDE7AD545DE1642970FB3 /* KRPrinting */,
+				1054F372C7937A0D044F1BDB9BC7B6D3 /* KRSaying */,
+				7FF3EB3DD8DDAF50D4BB35A8DA681880 /* Pods-git_component_test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60E7E2BBFDB9C34BB817A998C1823870 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36261F029C321C5ADE30B5E15BE6329C /* Pods-git_component_test */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		84D4FC16FBC485E9A3A2F9B6061615DF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F2936408B48B6F151EBAAFD0E4D3FAF7 /* KRPrinting.podspec */,
+				31AA4AAE46FF26DF5B71F97B306D52DD /* LICENSE */,
+				5BC26CC129C04288002685337E7840EA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		ACC526BBBEE376429769E242DC7D3B03 /* KRPrinting */ = {
+			isa = PBXGroup;
+			children = (
+				5F613A074D7373FEF3F7B4BE8078F5C6 /* CorePrinting.h */,
+				83039C3AAF5E71A098C7B3F9E945CECF /* CorePrinting.m */,
+				84D4FC16FBC485E9A3A2F9B6061615DF /* Pod */,
+				E7CB2A48FB069FEA68572364A879B97F /* Support Files */,
+			);
+			name = KRPrinting;
+			path = ../Library/KRPrinting;
+			sourceTree = "<group>";
+		};
+		AD4B383FDCF014351CA69B09921B2225 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAAB73AF6690CAB947EC78FF45D46CC5 /* KRSaying.modulemap */,
+				C75FB328F4A6A45C46A900C717745AE8 /* KRSaying-dummy.m */,
+				02102B5BD4F9A14DBAF4A83BB9A6D78B /* KRSaying-Info.plist */,
+				9565EAE10DA11504F137BE803D0621C9 /* KRSaying-prefix.pch */,
+				55FDE5629C7C77C6914D49B08DB71598 /* KRSaying-umbrella.h */,
+				0844EA55CAE0746BDD4D05F42DC56C98 /* KRSaying.debug.xcconfig */,
+				D3697F2BFCC3FAECCFC4C2EA67BA1174 /* KRSaying.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/KRSaying";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				14B46742FCFE146F468D44615EE2BF57 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				556C3132C6A580EF6601DFD93084FBB6 /* Products */,
+				60E7E2BBFDB9C34BB817A998C1823870 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6ED585A9CEF6FC6E047A69293942C94 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6C51590DB6AA1B361C43E4EC965EEFF0 /* KRSaying.podspec */,
+				168CEC802C29FF6A75DB0E6F15F8263C /* LICENSE */,
+				8F31FCA9B537191744A62988B2589016 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E726EE444A7CB52A17E03FE7EEDA8359 /* KRSaying */ = {
+			isa = PBXGroup;
+			children = (
+				B999AB738F89F8C47106D9D93C93B51D /* KRSaying.h */,
+				326B6FD5067F393CC280156702A2481F /* KRSaying.m */,
+				D6ED585A9CEF6FC6E047A69293942C94 /* Pod */,
+				AD4B383FDCF014351CA69B09921B2225 /* Support Files */,
+			);
+			name = KRSaying;
+			path = ../Library/KRSaying;
+			sourceTree = "<group>";
+		};
+		E7CB2A48FB069FEA68572364A879B97F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B143151528A30C00E293EB552440331 /* KRPrinting.modulemap */,
+				AA57119B9DC878D661C6C22D851DCAE0 /* KRPrinting-dummy.m */,
+				8698A991FF0F56EE98520CDD4FE2EAE6 /* KRPrinting-Info.plist */,
+				0F2E2284708B57B79C183077116894A8 /* KRPrinting-prefix.pch */,
+				B3143B0B2E2988939644798F5D0AD836 /* KRPrinting-umbrella.h */,
+				83E468CCF8D58515267DDC8ACEEECD25 /* KRPrinting.debug.xcconfig */,
+				3A547026977B37159BC891F2F1A2A288 /* KRPrinting.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/KRPrinting";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BCF1E8068C9F8FC77CFC2B93EADD68B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA3DA2354C2FD2242CFD65E4BAAD839 /* CorePrinting.h in Headers */,
+				A1DE7727A891DADC5FE5073DF7591708 /* KRPrinting-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2792B062DC1BC644468B3990537A5549 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4279FFF69BFE5B8A88FF8F40C9E4BE /* KRSaying.h in Headers */,
+				08E1EA35BE4A7B4FBB3C917111BC1AAA /* KRSaying-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF447887D6BC41B606DF5C79AFB7744 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9C8F2EA3C728940BCE43FB44C0BF6C /* Pods-git_component_test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3514032D285858E9323C8F7FE62D3488 /* KRPrinting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A72A171C7D0B6BB4BC1C70BBFBB84A6 /* Build configuration list for PBXNativeTarget "KRPrinting" */;
+			buildPhases = (
+				0BCF1E8068C9F8FC77CFC2B93EADD68B /* Headers */,
+				B915235091DF08ABE3062212E40F26BD /* Sources */,
+				D1E544D88DE2ABB740A5C779489108AB /* Frameworks */,
+				47F4E7BC963B7334990DDD31633E12DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRPrinting;
+			productName = KRPrinting;
+			productReference = 7F971506CC0CDE7AD545DE1642970FB3 /* KRPrinting */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F04BEF93CCC0C90B0E818390455F4C3 /* Pods-git_component_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16ECE06249B9543B97879C9B4D7F71A /* Build configuration list for PBXNativeTarget "Pods-git_component_test" */;
+			buildPhases = (
+				FBF447887D6BC41B606DF5C79AFB7744 /* Headers */,
+				BA82E44370455E18566284AE9244AA33 /* Sources */,
+				BBAA24B8D4F35FBF0B39F0CB65952A6D /* Frameworks */,
+				EF0C44F4B6B2BC26241181F9D466834B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F319627CE965AA3070E64CDD5E716099 /* PBXTargetDependency */,
+				3A3C6D3C710F2807998BC77939959416 /* PBXTargetDependency */,
+			);
+			name = "Pods-git_component_test";
+			productName = Pods_git_component_test;
+			productReference = 7FF3EB3DD8DDAF50D4BB35A8DA681880 /* Pods-git_component_test */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE1B30E9EC53870F0318B7274D3E0214 /* KRSaying */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4077628B91F8CA0CBBA899189A76BCEC /* Build configuration list for PBXNativeTarget "KRSaying" */;
+			buildPhases = (
+				2792B062DC1BC644468B3990537A5549 /* Headers */,
+				9AD62E291E637315E07E7CB50816616B /* Sources */,
+				FDB94DB67E374734BCC6185AE662E517 /* Frameworks */,
+				A9C81163FA76301EF3AF91E91C999948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5751436A83011C4F2F2519DC5ACFF9BD /* PBXTargetDependency */,
+			);
+			name = KRSaying;
+			productName = KRSaying;
+			productReference = 1054F372C7937A0D044F1BDB9BC7B6D3 /* KRSaying */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 556C3132C6A580EF6601DFD93084FBB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3514032D285858E9323C8F7FE62D3488 /* KRPrinting */,
+				CE1B30E9EC53870F0318B7274D3E0214 /* KRSaying */,
+				9F04BEF93CCC0C90B0E818390455F4C3 /* Pods-git_component_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47F4E7BC963B7334990DDD31633E12DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C81163FA76301EF3AF91E91C999948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0C44F4B6B2BC26241181F9D466834B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AD62E291E637315E07E7CB50816616B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF0CEF88D865C79C59D5AA32311BBE2 /* KRSaying.m in Sources */,
+				A64960FCC358BB19E2ECC46BF4FEE5A4 /* KRSaying-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B915235091DF08ABE3062212E40F26BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2DE1E2A39328E3F3C2DA251469E35E /* CorePrinting.m in Sources */,
+				AAFA98D9FEEE9B482D46ACBB52A9D1B5 /* KRPrinting-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA82E44370455E18566284AE9244AA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A852F9AFEA3398F46DB6F22B7EA112 /* Pods-git_component_test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A3C6D3C710F2807998BC77939959416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRSaying;
+			target = CE1B30E9EC53870F0318B7274D3E0214 /* KRSaying */;
+			targetProxy = 5A12E3DCF927F78B3B7AA14B3F5C029B /* PBXContainerItemProxy */;
+		};
+		5751436A83011C4F2F2519DC5ACFF9BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRPrinting;
+			target = 3514032D285858E9323C8F7FE62D3488 /* KRPrinting */;
+			targetProxy = F0865A7B5805E98C6CA85B0D72DDDF1B /* PBXContainerItemProxy */;
+		};
+		F319627CE965AA3070E64CDD5E716099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRPrinting;
+			target = 3514032D285858E9323C8F7FE62D3488 /* KRPrinting */;
+			targetProxy = 587BF6ACE15C665A6D22AB5E426BC6B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49399A0A14975E3E57C60C061576A1BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E468CCF8D58515267DDC8ACEEECD25 /* KRPrinting.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRPrinting/KRPrinting-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRPrinting/KRPrinting-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KRPrinting/KRPrinting.modulemap";
+				PRODUCT_MODULE_NAME = KRPrinting;
+				PRODUCT_NAME = KRPrinting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AAE121B0EAB16E4F99897284FB6CAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0844EA55CAE0746BDD4D05F42DC56C98 /* KRSaying.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRSaying/KRSaying-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRSaying/KRSaying-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KRSaying/KRSaying.modulemap";
+				PRODUCT_MODULE_NAME = KRSaying;
+				PRODUCT_NAME = KRSaying;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		656296B8497BC2A069CBFFE5FE672D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3697F2BFCC3FAECCFC4C2EA67BA1174 /* KRSaying.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRSaying/KRSaying-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRSaying/KRSaying-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KRSaying/KRSaying.modulemap";
+				PRODUCT_MODULE_NAME = KRSaying;
+				PRODUCT_NAME = KRSaying;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C0A70B1225195D59B9F9025F6CD6AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A547026977B37159BC891F2F1A2A288 /* KRPrinting.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRPrinting/KRPrinting-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRPrinting/KRPrinting-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KRPrinting/KRPrinting.modulemap";
+				PRODUCT_MODULE_NAME = KRPrinting;
+				PRODUCT_NAME = KRPrinting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		93F722A298C7C3A33D457731CFBEF7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4802FB5EE9C84575EEB50B3890A05C37 /* Pods-git_component_test.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-git_component_test/Pods-git_component_test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-git_component_test/Pods-git_component_test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AB79526061BCDF4E2E911BE66DFFF6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A2E88A2F43C012373B5F6D81ABBC7A1 /* Pods-git_component_test.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-git_component_test/Pods-git_component_test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-git_component_test/Pods-git_component_test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4077628B91F8CA0CBBA899189A76BCEC /* Build configuration list for PBXNativeTarget "KRSaying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AAE121B0EAB16E4F99897284FB6CAE6 /* Debug */,
+				656296B8497BC2A069CBFFE5FE672D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A72A171C7D0B6BB4BC1C70BBFBB84A6 /* Build configuration list for PBXNativeTarget "KRPrinting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49399A0A14975E3E57C60C061576A1BC /* Debug */,
+				7C0A70B1225195D59B9F9025F6CD6AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16ECE06249B9543B97879C9B4D7F71A /* Build configuration list for PBXNativeTarget "Pods-git_component_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB79526061BCDF4E2E911BE66DFFF6D /* Debug */,
+				93F722A298C7C3A33D457731CFBEF7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
